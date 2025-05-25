@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 * {
     scroll-behavior: smooth;
@@ -562,4 +563,55 @@ body {
         height: auto;
     }
 
+}
+
+
+
+/* 404 page css  */
+
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    width: 100%;
+    background-color: #222831;
+}
+
+.error img {
+    width: 10vw;
+    min-width: 100px;
+    height: auto;
+    filter: drop-shadow(2px 2px 5px #00acb588);
+}
+
+.error p {
+    color: #fff;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-size: max(1vw, 20px);
+    font-weight: 500;
+    margin-top: 20px;
+    background: linear-gradient(130deg, #3fb0b6, #12b4ac, #0f9ca3, #31a6ac);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: animate 10s linear infinite;
+}
+
+.error img:hover{
+    scale: 1.05;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
 }
