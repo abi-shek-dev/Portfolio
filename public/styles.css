@@ -6,6 +6,10 @@
     scrollbar-width: none;
     font-family: "Varela", sans-serif;
     transition: all 0.3s ease;
+    -webkit-user-select: none;/* Safari */
+    -moz-user-select: none;/* Firefox */
+    -ms-user-select: none;/* Internet Explorer/Edge */
+    user-select: none;/* Standard */
 }
 
 * a {
@@ -35,7 +39,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0px;
+    margin: 0px;
     background-color: #222831e5;
     background-blend-mode: darken;
     backdrop-filter: blur(10px);
@@ -46,6 +50,20 @@ body {
     width: 200px;
     display: flex;
     justify-content: center;
+}
+
+.nav .left h1{
+    font-size: 1.5rem;
+    color: #00adb5;
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+.nav .left h1 svg{
+    vertical-align: middle;
+    width: 30px;
+    margin: 0;
+    vertical-align: -6px;
 }
 
 .nav .left img {
@@ -277,6 +295,11 @@ body {
     text-align: center;
 }
 
+.footer b {
+    color: #00adb5;
+    font-weight: bolder;
+}
+
 .footer div {
     display: flex;
     justify-content: center;
@@ -298,6 +321,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer .middle a {
+    cursor: default;
 }
 
 .footer .right {
@@ -602,7 +629,7 @@ body {
     animation: animate 10s linear infinite;
 }
 
-.error img:hover{
+.error img:hover {
     scale: 1.05;
 }
 
