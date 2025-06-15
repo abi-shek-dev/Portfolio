@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    font-family: "Varela", sans-serif;
+    transition: all 0.3s ease;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Standard */
+}
+
+* a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+body {
+    background-color: #222831;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.nav {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #393e46;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    background-color: #222831e5;
+    background-blend-mode: darken;
+    backdrop-filter: blur(10px);
+}
+
+.nav .left {
+    height: auto;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav .left h1 {
+    font-size: 1.5rem;
+    color: #00adb5;
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+.nav .left h1 svg {
+    vertical-align: middle;
+    width: 30px;
+    margin: 0;
+    vertical-align: -6px;
+}
+
+.nav .left img {
+    height: 70px;
+    width: auto;
+}
+
+.nav .right {
+    height: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav .right a {
+    width: 100px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav .right a:hover {
+    color: #ffffff9d;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
