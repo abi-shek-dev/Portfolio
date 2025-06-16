@@ -16,7 +16,8 @@ document.addEventListener("keydown", function (event) {
     (key === "Tab" || keyCode === 9) ||             // Tab
     (event.ctrlKey && key.toUpperCase() === 'U') || // Ctrl+U
     (event.ctrlKey && (key === '+' || key === '-' || keyCode === 187 || keyCode === 189)) || // Ctrl + + / -
-    (event.ctrlKey && event.shiftKey && ['I', 'J', 'C'].includes(key.toUpperCase())) // DevTools keys
+    (event.ctrlKey && event.shiftKey && ['I', 'J', 'C'].includes(key.toUpperCase())) ||// DevTools keys
+    (event.ctrlKey && key.toUpperCase() === 'R') 
   ) {
     event.preventDefault();
     showPopup();
