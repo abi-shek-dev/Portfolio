@@ -158,7 +158,7 @@ body {
 
 .firstpage .left h1 {
     width: 100%;
-    font-size: 50px;
+    font-size: max(30px,2.5vw);
     color: rgba(255, 255, 255, 0.747);
     text-align: center;
 }
@@ -215,7 +215,8 @@ body {
         flex-direction: column;
         justify-content: center;
         gap: 30px;
-        min-height: 1180px;
+        height: 100vh;
+        min-height: 1100px;
     }
 
     .firstpage .left{
