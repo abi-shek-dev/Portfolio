@@ -101,6 +101,43 @@ body {
     transition: all 0.3s ease;
 }
 
+@media (max-width: 590px) {
+    .nav .right .active {
+        display: none;
+    }
+
+    .nav .right {
+        height: auto;
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 5vw;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .nav .left {
+        height: auto;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav .left img {
+        height: 60px;
+        width: auto;
+    }
+
+    .nav .right {
+        display: none;
+    }
+
+}
+
 .firstpage {
     width: 100%;
     height: 100vh;
