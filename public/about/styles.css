@@ -209,6 +209,43 @@ body {
     shape-outside: circle(50%);
 }
 
+.secondpage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondpage h1{
+    width: 100%;
+    font-size: max(30px,2.3vw);
+    color: rgba(255, 255, 255, 0.747);
+    text-align: center;
+}
+
+.secondpage h1 b{
+    color: #00adb5;
+}
+
+.secondpage .skills{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+
+}
+
+.secondpage .skills .box{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 @media (max-width: 900px){
 
     .firstpage {
