@@ -32,7 +32,9 @@ Portfolio/
 
 ## 📸 Preview
 
-![Portfolio Screenshot](https://raw.githubusercontent.com/Abishek-Web-Co/Portfolio/public/assets/Screenshot.png) 
+<div align="center">
+  <a href="https://abish-file.web.app/" target="_blank" rel="noopener noreferrer"><img height="200" src="/public/assets/Screenshot.png" alt="Screenshot of Portfolio" /></a>
+</div>
 
 ## 📬 Contact
 
