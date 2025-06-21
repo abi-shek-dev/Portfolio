@@ -33,7 +33,7 @@ Portfolio/
 ## 📸 Preview
 
 <div align="center">
-  <a href="https://abish-file.web.app/" target="_blank" rel="noopener noreferrer"><img height="200" src="/public/assets/Screenshot.png" alt="Screenshot of Portfolio" /></a>
+  <a href="https://abish-file.web.app/" target="_blank" rel="noopener noreferrer"><img width="100%" height="auto" src="/public/assets/Screenshot.png" alt="Screenshot of Portfolio" /></a>
 </div>
 
 ## 📬 Contact
