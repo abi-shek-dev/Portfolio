@@ -16,11 +16,13 @@ This is my personal portfolio website built using HTML, CSS, and JavaScript. It 
 
 ```
 Portfolio/
-├── assets/         # Images, icons, etc.
-├── css/            # Stylesheets
-├── js/             # JavaScript files
-├── index.html      # Main entry page
-└── ...             # Additional HTML sections/pages
+├── public/       # Public files (HTML, CSS, JS)
+    ├── assets/         # Images, icons, etc.
+    ├── about/          # About page           
+    ├── index.html      # Main entry page
+    ├── styles.css      # Global styles
+    ├── scripts.js      # JavaScript functionality
+└── ...             # firebase tools
 ```
 
 ## 💡 Features
