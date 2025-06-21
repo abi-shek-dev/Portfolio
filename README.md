@@ -32,7 +32,7 @@ Portfolio/
 
 ## 📸 Preview
 
-![Portfolio Screenshot](https://raw.githubusercontent.com/Abishek-Web-Co/Portfolio/main/assets/Screenshot.png) 
+![Portfolio Screenshot](https://raw.githubusercontent.com/Abishek-Web-Co/Portfolio/public/assets/Screenshot.png) 
 
 ## 📬 Contact
 
