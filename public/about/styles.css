@@ -243,6 +243,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 200px;
+    width: 200px;
+    min-width: 200px;
 
 }
 
