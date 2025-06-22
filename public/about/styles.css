@@ -234,7 +234,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
+    width: 80%;
     justify-content: center;
+    row-gap: 50px;
+    column-gap: 10vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 
@@ -243,9 +248,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 200px;
-    width: 200px;
-    min-width: 200px;
+    width: 250px;
+    height: 150px;
+    align-items: center;
+    border: #00adb5 3px solid;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 0px #00acb567;
+
+}
+
+.secondpage .skills .box:hover{
+
+    box-shadow: 1px 1px 15px 0px #00adb5;
+
+}
+
+@media(max-width:730px){
+
+    .secondpage .skills .box{
+        width: 200px;
+    }
 
 }
 
