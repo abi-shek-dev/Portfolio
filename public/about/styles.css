@@ -263,6 +263,10 @@ body {
 
 }
 
+.secondpage .skills .box svg{
+    height: 65px;
+}
+
 @media(max-width:730px){
 
     .secondpage .skills .box{
