@@ -205,7 +205,7 @@ body {
 .firstpage .right img{
     width: 25vw;
     min-width: 300px;
-    border-radius: 50%;
+    border-radius: 60% 30% 60% 30%;
     shape-outside: circle(50%);
 }
 
