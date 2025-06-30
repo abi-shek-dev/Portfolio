@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub Calendar</title>
+
+  <!-- GitHub Calendar Styles -->
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f5f7fa;
+      display: flex;
+      justify-content: center;
+      padding: 50px;
+    }
+
+    .calendar-container {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="calendar-container">
+    <h2>My GitHub Contributions</h2>
+    <div class="calendar"></div>
+  </div>
+
+  <!-- GitHub Calendar JS -->
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+  <!-- Init Calendar -->
+  <script>
+    GitHubCalendar(".calendar", "Abishek-Web-Co", {
+      responsive: true
+    });
+  </script>
+</body>
+</html>
