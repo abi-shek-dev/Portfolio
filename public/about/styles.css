@@ -203,8 +203,8 @@ body {
 }
 
 .firstpage .right img{
-    width: 25vw;
-    min-width: 300px;
+    width: 20vw;
+    min-width: 250px;
     border-radius: 50%;
     shape-outside: circle(50%);
 }
